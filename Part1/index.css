@@ -2,30 +2,30 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-  }
+}
 
-  nav {
-      height: 15vh;
-      background: #444;
-      color: #DDD;
-  }
+nav {
+    height: 15vh;
+    background: #444;
+    color: #DDD;
+}
 
-  main {
-      background: #EEE;
-      height: 85vh;
-  }
+main {
+    background: #EEE;
+    height: 85vh;
+}
 
-  table,
-  section,
-  nav {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+table,
+section,
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  table {
-      padding-top: 5vh;
-  }
+table {
+    padding-top: 5vh;
+}
 
 .row td {
     height: 120px;
@@ -33,4 +33,16 @@
     border: 1px solid #000;
     text-align: center;
     font-size: 2em;
+}
+
+#resetButton {
+    height: 40px;
+    padding: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 10px;
+    display: block;
+    background: #444;
+    color: #fff;
 }
